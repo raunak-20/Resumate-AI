@@ -1610,7 +1610,8 @@ def main():
                 </div>
             """, unsafe_allow_html=True)
             
-            uploaded_file = st.file_uploader("", type=['pdf'], label_visibility="collapsed")
+            # uploaded_file = st.file_uploader("", type=['pdf'], label_visibility="collapsed")
+            uploaded_file = st.file_uploader("Upload Resume (PDF)", type=['pdf'], label_visibility="collapsed")
             
             # Quick Tips
             with st.expander("💡 Resume Tips for Better ATS Score"):
