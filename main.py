@@ -224,8 +224,9 @@ FEEDBACK_CSV = CSV_DIR / 'feedback.csv'
 INTERVIEW_CSV = CSV_DIR / 'interviews.csv'
 
 # ==================== API Keys ====================
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 RAPIDAPI_KEY = "f11509220amshacdf4a37eb0525bp13b188jsn95e091e6f6f7"
+# RAPIDAPI_KEY = "296903f2b3mshbb1b5b10d50006cp12531ajsnee6b352320fa"
 
 # ==================== ML Models & Data ====================
 SKILL_CATEGORIES = {
